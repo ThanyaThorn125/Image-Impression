@@ -1,0 +1,122 @@
+.main{
+    background-image: url(image/wallpaper.jpg);
+    background-repeat:no-repeat;
+    background: size 100%;
+    display: block;
+    margin: auto;
+
+}
+header{
+    text-align:center;
+    font-size: 40px;
+    background-color: #0a0a0a;
+    color: #ffa31a;
+    padding: 80px;
+    font-family:fantasy;
+    border-radius: 30px;
+    margin-bottom: 180px;
+    margin-top: 5px;
+    margin:100px;  
+
+
+}
+.pic{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 35px;
+    position: relative;
+    top:15px;
+    border:#ffa31a dotted;
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 30px;
+    justify-content: center;
+
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 0.3;
+    border-radius: 50px;
+    border:ridge black 8px;
+
+}
+.box1:hover{
+    cursor: pointer;
+    opacity: 1;
+    border-color: #ffa31a;
+}
+
+footer{
+    color: #ffa31a;
+    margin-top: 180px;
+    background: #0a0a0a;
+    text-align: center;
+    padding:10px;
+    border-radius: 50px;
+
+}
+.footer{
+    padding:10px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+.one{
+    padding-top: 20px;
+    display: block;
+    border-left: #0a0a0a dashed 25px;
+    margin-left: 30px;
+    width: 500px;
+ 
+}
+.p1{
+    margin-left: 50px;
+    border-left: #ffa31a 20px solid;
+    padding-left: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border-bottom: #ffa31a solid 5px;
+    position: absolute; 
+    top: 750px; 
+    left: 1070px; 
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    font-size: 50px;
+    color:firebrick;
+}
+.home{
+    width: 50px;
+    margin-left: 25px;
+    border-radius: 30px ;
+    border: dashed #ffa31a 5px;
+    padding: 5px;
+}
+
+h2{
+    color:white ;
+    margin-top: 5px;
+    border: solid #ffa31a 1px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color:#ffa31a;
+    text-align: center;
+
+
+
+}
+.content{
+    border: #ffa31a 5px solid;
+    width: 1500px;
+    margin-left: 150px;
+
+}
